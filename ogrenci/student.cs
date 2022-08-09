@@ -35,7 +35,15 @@ namespace ogrenci
             Console.Write("No: ");
             no = Console.ReadLine();
             int noInt = int.Parse(no);
-            stu.Exists(x=> x.no.Equals(noInt)); 
+          bool b =  stu.Exists(x=> x.no.Equals(no));
+            if (b == true)
+            {
+                Console.Clear();
+                Console.WriteLine("Bu no'da öğrenci var. Tekrar giriş yapın: ");
+                
+                 ogrenciEkle( stu);
+
+            }
               
             //if (noInt == check) { }
             Console.Write("Adı: ");
@@ -100,10 +108,10 @@ namespace ogrenci
             if (check.ToUpper() == "H") { Console.WriteLine("Öğrenci silinmedi."); }
 
         }
-        public void SecimAl(string secim)
+        public static string SecimAl( )
         {
-
-            secim = Console.ReadLine();
+             
+           return     Console.ReadLine();
         }
     }
 }

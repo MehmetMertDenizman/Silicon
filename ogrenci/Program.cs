@@ -14,10 +14,12 @@ while (say < 10)
     "2- Öğrenci Listele (L)\n" +
     "3- Öğrenci Sil (S)\n" +
     "4- Çıkış (X)\n");
- 
-    string secim = Console.ReadLine();
+    //string secim = Console.ReadLine();
+    //stuMethod.SecimAl();
+    Console.Write("Seçiminiz: ");
+    string s =     student.SecimAl();
     //Console.WriteLine("Seçiminiz: " + secim);
-    if (secim == "1" || secim.ToUpper() == "E")
+    if (s  == "1" || s.ToUpper() == "E")
     {
         Console.WriteLine("Öğrenci ekle ----------");
 
@@ -32,14 +34,14 @@ while (say < 10)
         { stu.Remove(stu.Last()); Console.WriteLine("Öğrenci eklenmedi"); }
     }
     //case "1": case "E": student ogrenci = new student(); //ogrenci.ogrenciEkle(); break; NORMAL YOL
-    else if (secim == "2" || secim.ToUpper() == "L")
+    else if (s == "2" || s.ToUpper() == "L")
     {
 
         stuMethod.ogrenciListele(stu);
 
     }
 
-    else if (secim == "3" || secim.ToUpper() == "S")
+    else if (s == "3" || s.ToUpper() == "S")
     {
         if (stu.Count() == 0)
         {
@@ -50,10 +52,11 @@ while (say < 10)
         }
         else { stuMethod.ogrenciSil(stu); }
     }
-    else if (secim == "4" || secim.ToUpper() == "X")
+    else if (s == "4" || s.ToUpper() == "X")
     {
 
         break;
     }
+    else if(say == 10) { Console.WriteLine("Üzgünüm sizi anlayamıyorum. Program sonlandırılıyor."); break; } 
 
 }
