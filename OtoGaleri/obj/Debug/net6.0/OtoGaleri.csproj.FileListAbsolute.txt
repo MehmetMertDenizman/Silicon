@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\OtoGaleri\bin\Debug\net6.0\OtoGaleri.exe
+C:\Users\Adm\source\repos\OtoGaleri\bin\Debug\net6.0\OtoGaleri.deps.json
+C:\Users\Adm\source\repos\OtoGaleri\bin\Debug\net6.0\OtoGaleri.runtimeconfig.json
+C:\Users\Adm\source\repos\OtoGaleri\bin\Debug\net6.0\OtoGaleri.dll
+C:\Users\Adm\source\repos\OtoGaleri\bin\Debug\net6.0\OtoGaleri.pdb
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.AssemblyInfo.cs
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.dll
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\refint\OtoGaleri.dll
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.pdb
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\OtoGaleri.genruntimeconfig.cache
+C:\Users\Adm\source\repos\OtoGaleri\obj\Debug\net6.0\ref\OtoGaleri.dll
